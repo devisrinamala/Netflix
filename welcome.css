@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+}
+.banner{
+    background-image: url(assests/jpg/banner/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 80vh;
+}
+.banner .banner-content{
+    padding: 15% 7%;
+}
+.banner .banner-content .banner-title h1{
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.banner .banner-content .banner-title p{
+    color: #fff;
+    font-size: .9rem;
+    max-width: 600px;
+    padding: 2% 0%;
+}
+.banner .banner-content .banner-buttons .play{
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 2%;
+    font-size: 1.3rem;
+    margin-right: 5px;
+    transition: .5s;
+}
+.banner .banner-content .banner-buttons .play:hover{
+    background-color: #333;
+    color: #fff;
+}
+.banner .banner-content .banner-buttons .info{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 2%;
+    font-size: 1.3rem;
+    margin-left: 5px;
+    transition: .5s;
+}
+.banner .banner-content .banner-buttons .info:hover{
+    background-color: #fff;
+    color: #333;
+}
+section .posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 2%;
+}
+section .posters::-webkit-scrollbar{
+    display: none;
+}
+section .posters .poster{
+    margin: 0px 5px;
+    max-width: 100%;
+    height: 20vh;
+    transition: transform 420ms;
+}
+section .posters .poster:hover{
+    transform: scale(1.09);
+}
+section h1{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2% 2%;
+}
